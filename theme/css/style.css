@@ -1,7 +1,6 @@
-body {
-    font-family : monospace ;
+article {
     font-size :  100% ;
-    background-color : rgb(179, 90, 90) ;
+    background-color :whitesmoke;
     color : #111 ;
     width :  80% ;
     min-width :  400px ;
@@ -11,6 +10,28 @@ body {
     border : thin solid gray ;
     border-radius :  5px ;
     display : block ;
+}
+
+body {
+    font-family : monospace ;
+    font-size :  100% ;
+    background-color :whitesmoke;
+    color : #111 ;
+    width :  80% ;
+    min-width :  400px ;
+    max-width: 800px ;
+    min-height :  200px ;
+    padding :  1em ;
+    margin :  0 auto ;
+    display : block ;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+p {
+    font-size: x-large;
 }
 
 a:link    { color : blue ; text-decoration : none ;      }
